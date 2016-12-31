@@ -1,0 +1,817 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="wide wow-animation">
+	<head>
+		<!-- Site Title -->
+		<title>עדן בן זקן האתר הרשמי - Eden Ben Zaken Official</title>
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="viewport"
+		content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+<meta charset="UTF-8">
+
+		<!-- Stylesheets -->
+		<link rel="icon" href="images/rose.ico" type="image/x-icon">
+
+		<link href='https://fonts.googleapis.com/css?family=Slabo+13px%7cMontserrat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+
+		<!--[if lt IE 10]>
+		<script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+
+		<script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
+
+		<script src="https://www.negishim.com/accessibility/accessibility_pro.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			accessibility_rtl = true;
+			pixel_from_side = 20;
+			pixel_from_start = 20;
+		</script>
+
+	</head>
+	<body>
+		<!-- The Main Wrapper -->
+		<div class="page">
+
+			<!--For older internet explorer-->
+			<div class="old-ie" style='background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;'>
+				<a href="http://windows.microsoft.com/en-US/internet-explorer/.."> <img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
+				alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/> </a>
+			</div>
+			<!--END block for older internet explorer-->
+
+			<!--========================================================
+			HEADER
+			=========================================================-->
+			<!-- RD Parallax -->
+			<header class="page-header rd-parallax">
+				<div class="rd-parallax-layer" data-speed="0.2" data-type="media" data-url="images/cover2final3.gif" style="    text-align: center; width="100%";"></div>
+				<div class="rd-parallax-layer well-lg viewport-height" data-speed="0.4" data-type="html" data-fade="false">
+					<div class="container">
+						<div class="header-top">
+							<!-- Logo -->
+							<div class="brand">
+								
+								
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								
+								<br>
+								<br>
+							</div>
+							<!-- END Logo -->
+
+							<!-- sign -->
+							<div class="sign-block ">
+								<span onclick="document.getElementById('myImage').src='images/heart2.png'"><a href="#" data-waypoint-to="#ins"></a><img  src="images/heart1.png" style="width:2%;" id="myImage"></a></span>
+								<br>
+								<span onclick="document.getElementById('crown').src='images/crown2.png'"><img src="images/crown.png" style="width:2%;" id="crown"></span>
+								<span onclick="document.getElementById('rose').src='images/rose2.png'"><img src="images/rose.png" style="width:2%;" id="rose"></span>
+								<br>
+								<span onclick="document.getElementById('note').src='images/note2.png'"><img src="images/note.png" style="width:2%;" id="note"></span>
+								
+							
+							</div>
+								
+							<!-- END sign -->
+							<!-- Logo -->
+							<div id="hidenseek"><br><br><br><br></div>
+							
+							<div class="large-header">
+								 
+									<a href="#" data-waypoint-to="#content" style="font-family: 'Assistant', sans-serif;     text-align: center;" class=" more wow fadeIn brand__slogan" >עדן בן זקן</a>
+							
+							
+							</div>
+							<canvas id="canvas"></canvas>
+						</div>
+					</div>
+			</header>
+			<!-- Modal content Form -->
+			<div id="myModal3" class="modal3">
+				<div class="modal-content3">
+					<span class="closeit">X</span>
+					<!-- RD Mailform -->
+					<form class='rd-mailform' method="post" action="bat/rd-mailform.php">
+						<!-- RD Mailform Type -->
+						<input type="hidden" name="form-type" value="subscribe"/>
+						<!-- END RD Mailform Type -->
+						<fieldset>
+							
+						
+								
+								<p >הצטרפו למועדון המעריצים של עדן בן זקן - לקבלת הטבות הנחות ומבצעים ייחודיים...</p>
+								<div class="col-md-6 col-md-6">
+									<label data-add-placeholder>
+										<input type="text"
+										name="email"
+										placeholder="כתובת האימייל שלך"
+										data-constraints="@NotEmpty @Email" style="direction: rtl; text-align: left!important;"/>
+									</label>
+									<label data-add-placeholder>
+										<input type="text"
+										name="name"
+										placeholder="שם מלא"
+										data-constraints="@NotEmpty " style="direction: rtl; text-align: right!important;"/>
+									</label>
+									<label data-add-placeholder>
+										<input type="text"
+										name="phone"
+										placeholder="טלפון"
+										data-constraints="@Phone @NumbersOnly" style="direction: rtl; text-align: right!important;"/>
+									</label>
+									<div class="mfControls btn-group">
+										
+										<button class="btn btn-lg btn-default-variant-2" type="submit">
+											הרשמו
+										</button>
+									</div>
+								</div>
+			
+							
+
+							<div class="mfInfo"></div>
+						</fieldset>
+					</form>
+					<!-- END RD Mailform -->
+
+				</div>
+			</div>
+			<!-- END RD Parallax-->
+			<!--========================================================
+			CONTENT
+			=========================================================-->
+			<main class="page-content" id="content" onload="myFunction()">
+
+				<!-- Rd Parallax -->
+				<section class="rd-parallax">
+					<div class="rd-parallax-layer" data-speed="0.5" data-type="media" data-url="images/white-bg.jpg" ></div>
+
+					<div class="container ">
+						<div class="bg-default">
+
+							<div class=" wow fadeIn text-center" >
+								<br>
+								<p class="firsttext text-center">
+									עדן בן זקן 
+תוך שנה הפכה לסנסציה אדירה, ולזמרת הכי חמה בתעשיית המוסיקה בישראל, כשבדרך היא קוטפת כל תואר אפשרי 
+
+זמרת השנה בפעם השנייה ברציפות, עם למעלה מ100 מיליון צפיות ביוטיוב, כשאלבום הבכורה "מלכת השושנים" ואלבומה החדש "תאמין לי" הגיעו תוך שבועות בודדים למעמד של אלבום פלטינה (למעלה מ 40,000 עותקים פיזיים), ולמעמד של פלטינה מרובעת בדיגיטל עם למעלה מ-120,000 הורדות
+								</p>
+								<p class="firsttext">
+									
+								</p>
+								<p class="firsttext">
+								
+								</p>
+								<p class="firsttext">
+									
+								</p>
+							</div>
+							<div class="col-md-7 col-xs-preffix-1 wow fadeIn " >
+								<h1 class="brand2" style="font-family: 'Assistant', sans-serif;   color:pink;     text-align: center;" id="crown2">סיבוב הופעות חורף </h1>
+
+								<div class="clearfix">
+
+									<div class="col-md-4  col-xs-preffix-1  col-md-preffix-0 text-right text-md-right wow fadeIn" data-wow-delay="0.3s"></div>
+
+								</div>
+							</div>
+							<div class="liner"></div>
+							<br>
+						</div>
+
+						<div class="js-postfix-1">
+							<div class="event-wrapper">
+								<!-- Events -->
+								<a href="https://www.2207.co.il/show/%D7%A2%D7%93%D7%9F-%D7%91%D7%9F-%D7%96%D7%A7%D7%9F-%D7%AA%D7%90%D7%9E%D7%99%D7%9F-%D7%9C%D7%99" target="_blank">
+								<div class="event wow fadeIn" data-wow-delay="0.2s">
+									<div class="event-block">
+										<time datetime="2016-01-01">
+											13/12
+										</time>
+										<p class="heading-4" style="color:white;">
+											האנגר 11 - ת"א
+										</p>
+										<BR>
+											<p class="heading-4 sold" style="color:red; border-top:solid 1px; border-bottom:solid 1px; background-color:black;">
+											SOLD OUT
+										</p>
+									</div>
+									<img src="images/page-1_img02.jpg" width="323" height="327" alt="">
+								</div> </a>
+								<a href="https://www.8662244.co.il/inner.asp?itemID=486" target="_blank">
+								<div class="event wow fadeIn" data-wow-delay="0.4s">
+									<div class="event-block">
+										<time datetime="2016-01-01">
+											31/12
+										</time>
+										<p class="heading-4" style="color:white;">
+											אודיטוריום - חיפה
+										</p>
+											<BR>
+											<p class="heading-4 sold" style="color:red; border-top:solid 1px; border-bottom:solid 1px; background-color:black;">
+											SOLD OUT
+										</p>
+									</div>
+									<img src="images/page-1_img03.jpg" width="323" height="327" alt="">
+								</div> </a>
+								<a href="https://www.2207.co.il/show/%D7%A2%D7%93%D7%9F-%D7%91%D7%9F-%D7%96%D7%A7%D7%9F-%D7%AA%D7%90%D7%9E%D7%99%D7%9F-%D7%9C%D7%99" target="_blank">
+								<div class="event wow fadeIn" data-wow-delay="0.6s">
+									<div class="event-block">
+										<time datetime="2016-01-01">
+											24/01
+										</time>
+										<p class="heading-4" style="color:white;">
+											האנגר 11 - ת"א
+										</p>
+											<BR>
+											<p class="heading-4 sold" style="color:red; border-top:solid 1px; border-bottom:solid 1px; background-color:black;">
+											SOLD OUT
+										</p>
+									</div>
+									<img src="images/page-1_img04.jpg" width="323" height="327" alt="">
+								</div></a>
+								<a href="http://www.sarithafakot.com/hebrew/index.htm" target="_blank">
+								<div class="event wow fadeIn" data-wow-delay="0.7s">
+									<div class="event-block">
+										<time datetime="2016-01-01">
+											09/02
+										</time>
+										<p class="heading-4" style="color:white;">
+											פסטיבל נשים - אילת
+										</p>
+									</div>
+									<img src="images/page-1_img05.jpg" width="323" height="327" alt="">
+								</div></a>
+								<a href="https://www.eventer.co.il/hangarlive" target="_blank">
+								<div class="event wow fadeIn" data-wow-delay="0.0s">
+									<div class="event-block">
+										<time datetime="2016-01-01">
+											25/02
+										</time>
+										<p class="heading-4" style="color:white;">
+											האנגר 09 -עמק חפר
+										</p>
+									</div>
+									<img src="images/page-1_img01.jpg" width="323" height="327" alt="">
+								</div></a>
+								<a href="http://www.mishkan7.co.il/index.php?page=show&id=371" target="_blank">
+								<div class="event wow fadeIn" data-wow-delay="0.7s">
+									<div class="event-block">
+										<time datetime="2016-01-01">
+											14/02
+										</time>
+										<p class="heading-4" style="color:white;">
+											באר שבע - משכן ב"ש
+										</p>
+									</div>
+									<img src="images/page-1_img05.jpg" width="323" height="327" alt="">
+								</div></a>
+								<!-- END Events -->
+
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div  >
+							<!-- Magnific Popup Video -->
+							<div class="thumb postfix-1 hovertext" >
+								<h1 class="brand2" style="font-family: 'Assistant', sans-serif;   color:pink;     text-align: center;     font-size: 64px;" id="note2">להאזנה לשירי האלבומים לחצו על אחת התמונות</h1>
+								<div class="liner"></div>
+
+								<div class="clearfix"></div>
+								<div class="album1"><img id="myBtn2" class="album img-responsive" src="images/eden2album.jpg">
+								</div>
+								<div class="album2"><img  id="myBtn" class="album img-responsive" src="images/eden1album.jpg">
+								</div>
+
+							</div><div class="clearfix"></div>
+							<!-- END Magnific Popup Video -->
+							<div id="myModal" class="modal">
+
+								<!-- Modal content -->
+								<div class="modal-content">
+									<span class="close">X</span>
+									<p >
+										עדן בן זקן באלבומה השני תאמין לי 
+									</p>
+									<div class="video-container">
+									<iframe width="260" height="215" src="https://www.youtube.com/embed/VnekJKF3zkc?list=PLO29z_00bBxVBeqAkB9KrUxRvy4DT9IC5" frameborder="0" allowfullscreen></iframe></div><br>
+									<a href="http://goo.gl/TBRxfY" target="_blank" style="direction:rtl;"><img class="img-responsive2" src="images/pele.png" ></a>
+										<br>
+										<a href="http://goo.gl/zHjoVI" target="_blank" style="direction:rtl;"><img class="img-responsive2" src="images/celcom.png" ></a>
+										<br>
+										<a href="http://goo.gl/EIyDob" target="_blank" style="direction:rtl;"><img  class="img-responsive2" src="images/partner.png" ></a>
+										<br>
+										<a href="http://goo.gl/EIyDob" target="_blank" style="direction:rtl;"><img  class="img-responsive2" src="images/hot.png"></a>
+										<br>
+										<a href="http://goo.gl/L7DLUf" target="_blank" style="direction:rtl;"><img  class="img-responsive2" src="images/itunes.png" ></a>
+										<br>
+								</div>
+
+							</div>
+							<div id="myModal2" class="modal2">
+
+								<!-- Modal content -->
+								<div class="modal-content2">
+									<span class="close2">X</span>
+									<div class="rightm">
+
+										
+
+									</div>
+									<p >
+										עדן בן זקן באלבומה הראשון מלכת השושנים
+									</p>
+									<div class="video-container">
+									<iframe width="260" height="215" src="https://www.youtube.com/embed/videoseries?list=PLO29z_00bBxWOXyaIaZbrEFizyXr-nxW7" frameborder="0" allowfullscreen></iframe></div><br>
+									<a href="http://goo.gl/TBRxfY" target="_blank" style="direction:rtl;"><img class="img-responsive2" src="images/pele.png" ></a>
+										<br>
+										<a href="http://goo.gl/zHjoVI" target="_blank" style="direction:rtl;"><img class="img-responsive2" src="images/celcom.png" ></a>
+										<br>
+										<a href="http://goo.gl/EIyDob" target="_blank" style="direction:rtl;"><img class="img-responsive2" src="images/partner.png" ></a>
+										<br>
+										<a href="http://goo.gl/EIyDob" target="_blank" style="direction:rtl;"><img  class="img-responsive2" src="images/hot.png"></a>
+										<br>
+										<a href="http://goo.gl/L7DLUf" target="_blank" style="direction:rtl;"><img class="img-responsive2" src="images/itunes.png" ></a>
+										<br>
+								</div>
+
+								<div class="clearfix"></div>
+							</div>
+
+							<div class="container ">
+
+								<div class="bg-default bg-default--variant-2 well-md--inset3">
+									<h1 style="direction:rtl; font-family: 'Assistant', sans-serif;  color:pink;     text-align: center;" id="ins">רשתות חברתיות</h1>
+									<div class="liner"></div>
+									<div class="row well-md--inset2 text-right text-xs-middle">
+
+										<div class="col-md-4  col-xs-preffix-1  col-md-preffix-0 text-md-middle wow fadeIn" data-wow-delay="0.3s"></div>
+									</div>
+
+									<div class="row text-center text-sm-center flow-offset-1">
+										<div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.2s">
+											<div class="product inset-2" >
+												<a href="https://www.instagram.com/edenben_zaken/" class="btn btn-block btn-social btn-twitter" style="font-family: 'Assistant', sans-serif;  color:pink;     text-align: center; font-size: 30px;" target="_blank">
+    <span class="fa fa-instagram"></span> עקבו אחרינו 
+  </a>
+<div class="liner"></div><br>
+												<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+													<div style="padding:8px;">
+														<div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;">
+															<div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div>
+														</div>
+														<p style=" margin:8px 0 0 0; padding:0 4px;">
+															<a href="https://www.instagram.com/p/BNenO88BV_u/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">הכל בזכותכם תודה 💗</a>
+														</p>
+														<p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+															A photo posted by Eden Ben Zaken (@edenben_zaken) on
+															<time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-12-01T14:44:25+00:00">
+																Dec 1, 2016 at 6:44am PST
+															</time>
+														</p>
+													</div>
+												</blockquote>
+												<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+											</div>
+										</div>
+
+										<div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.4s">
+											
+											<div class="product inset-2 text-center">
+												<h4 style="font-family: 'Assistant', sans-serif;  color:pink;     text-align: center;">עשו לנו לייק</h4>
+												<div class="fb-like" data-href="https://www.facebook.com/EdenBenZakenOfficial" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+<div class="liner"></div><br>
+												<div class="fb-page" data-href="https://m.facebook.com/EdenBenZakenOfficial/" data-tabs="timeline" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+													<blockquote cite="https://m.facebook.com/EdenBenZakenOfficial/" class="fb-xfbml-parse-ignore">
+														<a href="https://m.facebook.com/EdenBenZakenOfficial/">‏Eden Ben Zaken - עדן בן זקן‏</a>
+													</blockquote>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.6s">
+											<div class="product inset-2 text-center" style="direction:rtl;  "><br>
+<h4 style="font-family: 'Assistant', sans-serif;  color:pink;     text-align: center;">הורדת שירים לסלולר</h4>
+<div class="liner"></div><br>
+												<a href="http://goo.gl/TBRxfY" target="_blank" style="direction:rtl;"><img src="images/pele.png" ></a>
+												<br>
+												<a href="http://goo.gl/zHjoVI" target="_blank" style="direction:rtl;"><img src="images/celcom.png" ></a>
+												<br>
+												<a href="http://goo.gl/EIyDob" target="_blank" style="direction:rtl;"><img src="images/partner.png" ></a>
+												<br>
+												<a href="http://goo.gl/EIyDob" target="_blank" style="direction:rtl;"><img src="images/hot.png"></a>
+												<br>
+												<a href="http://goo.gl/L7DLUf" target="_blank" style="direction:rtl;"><img src="images/itunes.png" ></a>
+												<br>
+
+											</div>
+										</div>
+									</div>
+								</div>
+				</section>
+				<!-- END Rd Parallax -->
+				<div class="clearfix"></div>
+				<!-- Section -->
+				<section class="bg-default-variant-4 wow fadeIn ">
+					<h1 style="direction:rtl; font-family: 'Assistant', sans-serif;  color:pink;     text-align: center;     font-size: 60px;" id="ins">זמרת השנה שנה שניה ברציפות -> MAKO</h1>
+									<div class="liner"></div>
+					<div class="container">
+						<div class="big wow fadeIn" style="text-shadow: 3px 3px 4px #000000;">
+							2016
+						</div>
+						<div class="row  row-sm-middle row-no-gutter">
+							<div class="col-sm-6 wow fadeIn z2" data-wow-delay="0.0s">
+								<div class="well-sm">
+							
+</h2>
+									<a target="_blank" href="http://www.mako.co.il/music-israeli-chart/2016/Article-fb0b09d4aea6751006.htm" class="btn btn-md btn-default" style="font-family: 'Heebo', sans-serif;">קרא עוד <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								</div>
+							</div>
+
+							<div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+								<div class="img-wrapper">
+									<img src="images/edens.jpg" width="1025" height="558" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- END Section -->
+
+				<!-- Rd Parallax -->
+				<section class="rd-parallax parallax__bg2">
+					<div class="rd-parallax-layer" data-speed="0.3" data-type="media" data-url="images/edenwhite2.jpg" ></div>
+
+					<div class="container ">
+						<div class="row">
+							<div class="col-lg-5 col-lg-preffix-7  col-md-7 col-md-preffix-5 wow fadeIn arrow-left arrow-left--mod2">
+								<div class="bg-default bg-default--variant3">
+									<div class="well-md--inset1">
+										<h2 style="direction:rtl; font-family: 'Assistant', sans-serif;  color:pink;     text-align: center;">ביוגרפיה</h2>
+							<div class="liner"></div>
+										<br>
+										</h2>
+										<p class="inset-1" style="font-family: 'Heebo', sans-serif;">
+											עדן בן זקן
+											תוך שנה הפכה לסנסציה אדירה, ולזמרת הכי חמה בתעשיית המוסיקה בישראל, כשבדרך היא קוטפת כל תואר אפשרי
+
+											זמרת השנה בפעם השנייה ברציפות, עם למעלה מ100 מיליון צפיות ביוטיוב, כשאלבום הבכורה "מלכת השושנים" ואלבומה החדש "תאמין לי" הגיעו תוך שבועות בודדים למעמד של אלבום פלטינה (למעלה מ 40,000 עותקים פיזיים), ולמעמד של פלטינה מרובעת בדיגיטל עם למעלה מ-120,000 הורדות
+
+											מלכת השושנים הבלתי מעוררת מחזיקה באמתחתה את שרשרת הלהיטים הגדולה של השנה החולפת:"אף אחד" "כל העיר שלנו" "תאמין לי", "מנגינה", "מלכת השושנים", "אלבינה", "שורף לי בעיניים", "פיסה מזיכרוני" ,"שיכורים מאהבה" "תזיזו" "ג'נטלמן" "אין לי אותך" "כשאתפרק" ועוד רבים טובים
+
+											מופע השקת האלבום החדש האנגר11 ת"א 19/11 כל הכרטיסים אזלו מראש!!!
+
+											לאור הביקוש הרב נפתח מופע נוסף בהאנגר 13/12 שגם הוא סולד אאוט חודש מראש!!
+
+											לאור הביקוש נפתח מופע נוסף 24/1 האנגר 11 וכמו כן סיבוב הופעות חורף ענק
+										</p>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--========================================================
+					News&Covers Section
+					==========================================================-->
+
+					<div class="container ">
+
+						<div class="bg-default bg-default--variant-2 well-md--inset3">
+							<h1 style="direction:rtl; font-family: 'Assistant', sans-serif;  color:pink;     text-align: center;">כתבות</h1>
+							<div class="liner"></div>
+							<div class="row well-md--inset2 text-right text-xs-middle">
+
+								<div class="col-md-4  col-xs-preffix-1  col-md-preffix-0 text-md-middle wow fadeIn" data-wow-delay="0.3s"></div>
+							</div>
+
+							<div class="row text-center text-sm-middle centerall">
+
+								<div class="img">
+									<a target="_blank" href="images/new/מגזינה.jpg"> <img src="images/new/מגזינה.jpg" alt="אפקט העדן  - מגזינה" width="300" height="200"> </a>
+									<div class="desc">
+										אפקט העדן  - מגזינה
+									</div>
+								</div>
+
+								<div class="img">
+									<a target="_blank" href="images/new/כתבה מעריב.jpg"> <img src="images/new/כתבה מעריב.jpg" alt="משמר המלכה - כתבה במעריב" width="600" height="400"> </a>
+									<div class="desc">
+										משמר המלכה - כתבה במעריב
+									</div>
+								</div>
+
+								<div class="img">
+									<a target="_blank" href="images/new/זמרת-השנה111.jpg"> <img src="images/new/זמרת-השנה111.jpg" alt="זמרת השנה" width="600" height="400"> </a>
+									<div class="desc">
+										עדן בן זקן זמרת השנה של ישראל
+									</div>
+								</div>
+								<div class="img">
+									<a target="_blank" href="images/new/שער 7 לילות.png"> <img src="images/new/שער 7 לילות.png" alt=" קדמת עדן - 7 לילות" width="600" height="400"> </a>
+									<div class="desc">
+										קדמת עדן - 7 לילות
+									</div>
+								</div>
+								<div class="img">
+									<a href="images/new/כתבה פנאי פלוס שער.PDF" download> <img src="images/new/שער פנאי פלוס.jpg" alt="שלום למלכה- פנאי פלוס" width="600" height="400"> </a>
+									<div class="desc">
+										שלום למלכה- פנאי פלוס
+									</div>
+								</div>
+								<div class="img">
+									<a href="images/new/coverStory.pdf" download> <img src="images/new/go.jpg" alt="עדן בן זקן - כתבת שער גו" width="600" height="400"> </a>
+									<div class="desc">
+										עדן בן זקן - כתבת שער גו
+									</div>
+								</div>
+								<div class="img">
+									<a target="_blank" href="images/new/lai3637001.jpg"> <img src="images/new/lai3637001.jpg" alt="עדן בן זקן - כתבת שער גו" width="600" height="400"> </a>
+									<div class="desc">
+										עדן בן זקן - כתבת שער לאישה
+									</div>
+								</div>
+								<div class="img">
+									<a href="https://www.youtube.com/watch?v=orGa4WvwFMs" > <iframe width="160" height="115" src="https://www.youtube.com/embed/orGa4WvwFMs" frameborder="0" allowfullscreen></iframe> </a>
+									<div class="desc">
+										עדן בן זקן מופע השקת אלבום הבכורה  - חדשות הבידור
+									</div>
+								</div>
+								<div class="img">
+									<a href="https://www.youtube.com/watch?v=i8FoUIxbkyw"> <iframe width="160" height="115" src="https://www.youtube.com/embed/i8FoUIxbkyw" frameborder="0" allowfullscreen></iframe> </a>
+									<div class="desc">
+										 עדן בן זקן בבלונד פלטינה ואלבום פלטינה - וואלה
+									</div>
+								</div>
+								<div class="img">
+									<a href="https://www.youtube.com/watch?v=eQOwSkSy7JU" > <iframe width="160" height="115" src="https://www.youtube.com/embed/eQOwSkSy7JU" frameborder="0" allowfullscreen></iframe> </a>
+									<div class="desc">
+										עדן בן זקן - גיא פינס
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--========================================================
+				FOOTER
+				==========================================================-->
+				<footer class="page-footer">
+					
+					<div class="container ">
+<br>
+								<div class="bg-default bg-default--variant-77 well-md--inset3">
+									
+									
+
+									<div class="row text-center text-sm-center flow-offset-1">
+										<div class="col-sm-8 col-md-8 wow fadeIn" data-wow-delay="0.2s">
+											<div class="product inset-2" >
+												
+	<h3>השארו מעודכנים</h3>
+							<p>
+								הרשמו ותהיו ראשונים לקבלת הנחות לההופעות הקרובות, אלבומים חדשים ועוד...
+							</p>
+							<!-- RD Mailform -->
+							<form class='rd-mailform' method="post" action="bat/rd-mailform.php">
+								<!-- RD Mailform Type -->
+								<input type="hidden" name="form-type" value="subscribe"/>
+								<!-- END RD Mailform Type -->
+								<fieldset>
+									<div class="row">
+										<div class="col-md-6 col-lg-8">
+											<label data-add-placeholder>
+												<input type="text"
+												name="email"
+												placeholder="כתובת האימייל שלך"
+												data-constraints="@NotEmpty @Email"/>
+											</label>
+											<label data-add-placeholder>
+												<input type="text"
+												name="name"
+												placeholder="שם מלא"
+												data-constraints="@NotEmpty "/>
+											</label>
+											<label data-add-placeholder>
+										<input type="text"
+										name="phone"
+										placeholder="טלפון"
+										data-constraints="@Phone @NumbersOnly" />
+									</label>
+										</div>
+										<div class="col-md-6 col-lg-4 text-sm-left">
+											<div class="mfControls btn-group">
+												<button class="btn btn-md btn-default-variant-2" type="submit">
+													הרשמו
+												</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="mfInfo"></div>
+								</fieldset>
+							</form>
+							<!-- END RD Mailform -->
+
+											</div>
+										</div>
+
+										
+
+										<div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.6s">
+											<div class="product inset-2 text-center" style="direction:rtl;  ">
+												<p class="copyright-txt">
+								 <span id="copyright-txt"></span> להזמנת הופעות:
+<p>שרית הפקות בע"מ </p> 
+<p><a href="tel:04-9816-716">04-9816-716</a></p>
+								<br>
+<p class="copyright-txt">
+								Eden Ben Zaken &#169; <span id="copyright-year"></span> | כל הזכויות שמורות
+								<br>
+								<a target="_blank" href="http://aramapp.info"> <img class="credit" src="images/aramappmin.png"> - פיתוח אפליקציות ואתרים </a>
+								<!-- {%FOOTER_LINK} -->
+							</p>
+
+							<!-- Inline list -->
+							<ul class="inline-list">
+								<li>
+									<a class="icon icon-sm icon-default fa-instagram" href="https://www.instagram.com/edenben_zaken/" target="_blank"></a>
+								</li>
+								<li>
+
+								</li>
+								<li>
+									<a class="icon icon-sm icon-default fa-facebook" href="https://www.facebook.com/EdenBenZakenOfficial/?fref=ts"></a>
+								</li>
+							</ul>
+							<!-- END Inline list -->
+											</div>
+										</div>
+									</div>
+								</div>
+				
+				</footer>
+		</div>
+		</section>
+		
+		<!-- END Rd Parallax -->
+
+		</main>
+		</div>
+
+		<!-- Core Scripts -->
+		<script src="js/core.min.js"></script>
+		<!-- Additional Functionality Scripts -->
+		<script src="js/script.js"></script>
+<script src="js/demo-2.js" type="text/javascript"></script>
+		<!-- Coded by Val -->
+		<div id="fb-root"></div>
+		<div id="fb-root"></div>
+		<!--	<script>
+		$('.album').click(function() {
+		video = '<iframe width="586" height="583" src="' + $(this).attr('data-video') + '"></iframe>';
+		$(this).replaceWith(video);
+		});
+		</script> -->
+		<script>
+			( function(d, s, id) {
+					var js,
+					    fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id))
+						return;
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v2.8&appId=530509437158773";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+		</script>
+
+		<script>
+			// Get the modal
+			var modal = document.getElementById('myModal');
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("myBtn");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks the button, open the modal
+			btn.onclick = function() {
+				modal.style.display = "block";
+			}
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+				modal.style.display = "none";
+			}
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}
+		</script>
+		<script>
+			// Get the modal
+			var modal2 = document.getElementById('myModal2');
+
+			// Get the button that opens the modal
+			var btn2 = document.getElementById("myBtn2");
+
+			// Get the <span> element that closes the modal
+			var span2 = document.getElementsByClassName("close2")[0];
+
+			// When the user clicks the button, open the modal
+			btn2.onclick = function() {
+				modal2.style.display = "block";
+			}
+			// When the user clicks on <span> (x), close the modal
+			span2.onclick = function() {
+				modal2.style.display = "none";
+			}
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal2) {
+					modal2.style.display = "none";
+				}
+			}
+		</script>
+		<script>
+			// Get the modal form
+			var modal3 = document.getElementById('myModal3');
+
+			// Get the button that opens the modal
+			var btn3 = document.getElementById("myBtn3");
+
+			// Get the <span> element that closes the modal
+			var span3 = document.getElementsByClassName("closeit")[0];
+
+			// When the user clicks the button, open the modal
+			window.onload = function() {
+				modal3.style.display = "block";
+			}
+			// When the user clicks on <span> (x), close the modal
+			span3.onclick = function() {
+				modal3.style.display = "none";
+			}
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal3) {
+					modal3.style.display = "none";
+				}
+			}
+		</script>
+		<script>
+			function myFunction() {
+				modal3.style.display = "block";
+			}
+		</script>
+		<script>
+			$("#myImage").dblclick(function() {
+				$('html, body').animate({
+					scrollTop : $("#ins").offset().top
+				}, 2000);
+			});
+		</script>
+		<script>
+			$("#crown").dblclick(function() {
+				$('html, body').animate({
+					scrollTop : $("#crown2").offset().top
+				}, 2000);
+			});
+		</script>
+		<script>
+			$("#rose").dblclick(function() {
+				$('html, body').animate({
+					scrollTop : $("#rose2").offset().top
+				}, 2000);
+			});
+		</script>
+		<script>
+			$("#note").dblclick(function() {
+				$('html, body').animate({
+					scrollTop : $("#note2").offset().top
+				}, 2000);
+			});
+		</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v2.8&appId=530509437158773";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	</body>
+</html>

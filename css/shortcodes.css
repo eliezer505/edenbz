@@ -1,0 +1,48 @@
+/*
+* @package      Shortcodes
+* @description  This package holds style declarations for
+*               shortcodes page
+*/
+.icon-short-code {
+  font-size: 16px;
+}
+.icon-short-code .box__left {
+  padding-right: 10px;
+  color: black;
+}
+
+/*
+ * @subsection   Icon Box
+ */
+.icon-box {
+  position: relative;
+  /*padding: 10px 20px 10px 55px;*/
+  padding: 5px 0 5px 35px;
+  transition: .3s all ease;
+  border-radius: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Arial;
+}
+
+.icon-box:hover {
+  color: #fff;
+  /* background: darken($primary, 2%);
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.11); */
+}
+
+.icon-box:before {
+  position: absolute;
+  left: 0px;
+  font-size: 1.4em;
+}
+
+.shortcodes h2 + .btn-group, .shortcodes .btn-group + h2, .shortcodes .container + .container, .shortcodes h2 + .inline-list, .shortcodes h2 + .responsive-tabs, .shortcodes h4 + .rd-mailform {
+  margin-top: 35px;
+}
+.shortcodes * + .bg-default-variant2 {
+  margin-top: 60px;
+}
+.shortcodes .responsive-tabs html.lt-ie10 * + [class*='col-'], .shortcodes .responsive-tabs html.lt-ie10 * + .row, .shortcodes .responsive-tabs * + [class*='col-'], .shortcodes .responsive-tabs * + .row {
+  margin-top: 0px;
+}
